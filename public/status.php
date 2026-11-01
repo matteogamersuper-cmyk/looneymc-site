@@ -34,9 +34,9 @@ $ServerName = "LooneyMC";
 
         <span class="tag">Server Status</span>
 
-        <h1>
-            Benvenuto sulla Pagina di Status del server <?= htmlspecialchars($ServerName) ?>!
-        </h1>
+        <h3>
+         Pagina di Status del server <?= htmlspecialchars($ServerName) ?>!
+        </h3>
 
         <p>
             Status: <?= htmlspecialchars($ServerStatus) ?>
