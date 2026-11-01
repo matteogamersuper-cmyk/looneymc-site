@@ -23,6 +23,7 @@ $ServerName = "LooneyMC";
         <nav>
             <a href="index.php">Home</a>
             <a href="status.php">Status</a>
+            <a href="store.php">Store</a>
         </nav>
     </header>
 
@@ -38,7 +39,7 @@ $ServerName = "LooneyMC";
         </h2>
     </main>
     <p>
-        Il Forum è in arrivo
+        Il Forum è in arrivo, Controlla il server discord negli annunci per sapere quando sarà disponibile!
     </p>
 </body>
 </html>

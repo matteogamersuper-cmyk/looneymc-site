@@ -29,6 +29,8 @@ $version = "1.20 - 1.21.x";
         <a href="#server">Server</a>
         <a href="#community">Community</a>
         <a href="status.php">Status</a>
+        <a href="forum.php">Forum</a>
+        <a href="store.php">Store</a>
     </nav>
 
     <a href="<?= htmlspecialchars($discord) ?>" class="discord-button">
