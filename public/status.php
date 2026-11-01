@@ -24,9 +24,13 @@ $ServerName = "LooneyMC";
         <nav>
             <a href="index.php">Home</a>
         </nav>
-
-        <h1> Status Server Minecraft </h1>
-        <p>Status: <?= htmlspecialchars($ServerStatus) ?></p>
     </header>
+
+    <main>
+        <section class="status">
+            <h1>Stato del Server</h1>
+            <p>Il Server è attualmente <strong><?= htmlspecialchars($ServerStatus) ?></strong></p>
+        </section>
+    </main>
 </body>
 </html>
