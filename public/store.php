@@ -37,9 +37,9 @@ $ServerName = "LooneyMC";
         <h2>
             Benvenuto nel store del server <?= htmlspecialchars($ServerName) ?>!
         </h2>
-    </main>
-    <p>
+        <p>
         Lo Store è in arrivo, Controlla il server discord negli annunci per sapere quando sarà disponibile!
-    </p>
+        </p>
+    </main>
 </body>
 </html>
