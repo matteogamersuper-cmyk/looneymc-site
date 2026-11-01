@@ -27,10 +27,20 @@ $ServerName = "LooneyMC";
     </header>
 
     <main>
-        <section class="status">
-            <h1>Stato del Server</h1>
-            <p>Il Server è attualmente <strong><?= htmlspecialchars($ServerStatus) ?></strong></p>
-        </section>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <span class="tag">Server Status</span>
+
+        <h1>
+            Benvenuto sulla Pagina di Status del server <?= htmlspecialchars($ServerName) ?>!
+        </h1>
+
+        <p>
+            Status: <?= htmlspecialchars($ServerStatus) ?>
+        </p>
     </main>
 </body>
 </html>
